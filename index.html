@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт с мини-играми</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body class="page">
+    <header class="hero">
+    <div class="hero__container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Добро пожаловать<br>на&nbsp;мой сайт мини-игр
+        </h1>
+
+        <p class="hero__description">
+          Тебе предстоит пройти несколько увлекательных игр.<br>
+          Если готов, нажимай «Поехали!» и&nbsp;приступай.
+        </p>
+
+        <a href="#about-games" class="hero__button">Поехали!</a>
+      </div>
+    </div>
+  </header>
+
+    <main>
+    <section class="about-games" id="about-games">
+      <div class="about-games__container">
+                <div class="about-games__stars-left" aria-hidden="true">
+          <img src="./img/star-outline-lime.svg" alt="" class="about-games__star about-games__star--left-top" width="28" height="28">
+          <img src="./img/star-outline-lime.svg" alt="" class="about-games__star about-games__star--left-bottom" width="46" height="46">
+        </div>
+
+                <div class="about-games__decor-burst" aria-hidden="true">
+          <img src="./img/star-burst-games.svg" alt="" class="about-games__burst-image" width="684" height="668">
+        </div>
+
+                <div class="about-games__stars-bottom-right" aria-hidden="true">
+          <img src="./img/star-outline-lime.svg" alt="" class="about-games__star about-games__star--br-small" width="26" height="26">
+          <img src="./img/star-outline-lime.svg" alt="" class="about-games__star about-games__star--br-large" width="46" height="46">
+        </div>
+
+                <header class="about-games__header">
+          <h2 class="about-games__title">Об играх</h2>
+          <p class="about-games__description">
+            В&nbsp;моей коллекции представлено 6&nbsp;игр на&nbsp;разные темы.<br>
+            Игры несложные&nbsp;&mdash; в&nbsp;них может поиграть каждый.<br>
+            Все игры доступны для пользования.
+          </p>
+        </header>
+
+                <div class="about-games__grid">
+                    <a href="#game-1" class="game-card">
+            <div class="game-card__image-box">
+              <img src="./img/card-1.png" alt="Иллюстрация к игре Угадай число" class="game-card__image" width="378" height="300">
+            </div>
+            <div class="game-card__content">
+              <span class="game-card__badge">Игра № 1</span>
+              <h3 class="game-card__title">Угадай число</h3>
+            </div>
+          </a>
+
+                    <a href="#game-2" class="game-card">
+            <div class="game-card__image-box">
+              <img src="./img/card-2.png" alt="Иллюстрация к игре Простая арифметика" class="game-card__image" width="378" height="300">
+            </div>
+            <div class="game-card__content">
+              <span class="game-card__badge">Игра № 2</span>
+              <h3 class="game-card__title">Простая арифметика</h3>
+            </div>
+          </a>
+
+                    <a href="#game-3" class="game-card">
+            <div class="game-card__image-box">
+              <img src="./img/card-3.png" alt="Иллюстрация к игре Переверни текст" class="game-card__image" width="378" height="300">
+            </div>
+            <div class="game-card__content">
+              <span class="game-card__badge">Игра № 3</span>
+              <h3 class="game-card__title">Переверни текст</h3>
+            </div>
+          </a>
+
+                    <a href="#game-4" class="game-card">
+            <div class="game-card__image-box">
+              <img src="./img/card-4.png" alt="Иллюстрация к игре Камень, ножницы, бумага" class="game-card__image" width="378" height="300">
+            </div>
+            <div class="game-card__content">
+              <span class="game-card__badge">Игра № 4</span>
+              <h3 class="game-card__title">Камень, ножницы, бумага</h3>
+            </div>
+          </a>
+
+                    <a href="#game-5" class="game-card">
+            <div class="game-card__image-box">
+              <img src="./img/card-5.png" alt="Иллюстрация к игре Простая викторина" class="game-card__image" width="378" height="300">
+            </div>
+            <div class="game-card__content">
+              <span class="game-card__badge">Игра № 5</span>
+              <h3 class="game-card__title">Простая викторина</h3>
+            </div>
+          </a>
+
+                    <a href="#game-6" class="game-card">
+            <div class="game-card__image-box">
+              <img src="./img/card-6.png" alt="Иллюстрация к игре Генератор случайных цветов" class="game-card__image" width="378" height="300">
+            </div>
+            <div class="game-card__content">
+              <span class="game-card__badge">Игра № 6</span>
+              <h3 class="game-card__title">Генератор случайных цветов</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
