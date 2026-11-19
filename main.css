@@ -310,7 +310,7 @@ img {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
   .hero {
     min-height: auto;
     padding: 64px 0 80px;
